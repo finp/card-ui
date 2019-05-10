@@ -1,0 +1,64 @@
+@import "typeface-roboto.css";
+@import "typeface-roboto-mono.css";
+@import "base.css";
+@import "card.css";
+@import "main.css";
+@import "navigation.css";
+@import "navigation-menu.css";
+@import "navigation-explore.css";
+@import "toolbar.css";
+@import "breadcrumbs.css";
+@import "page-versions.css";
+@import "doc.css";
+@import "header.css";
+@import "footer.css";
+@import "highlight.css";
+
+.hidden {
+  display: none;
+}
+
+.switch {
+  display: inline-block;
+  background: #fff;
+  width: 100%;
+  margin-left: -15px;
+  padding-right: 15px;
+  position: absolute;
+  top: 0;
+}
+
+.switch--item {
+  display: inline-block;
+  padding: 7px;
+  background-color: #2e6980;
+  color: #a7c9d9;
+  cursor: pointer;
+}
+
+.switch--item.selected {
+  -webkit-box-shadow: inset 0 4px 0 #ffd400 !important;
+  box-shadow: inset 0 4px 0 #ffd400 !important;
+  color: #fff;
+}
+
+.sidebarblock.primary {
+  background-color: #e1e1e1;
+  padding: 40px 15px;
+  position: relative;
+}
+
+.sidebarblock.primary > content {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: -15px;
+  margin-bottom: -9px;
+}
+
+img {
+  border: 1px solid #aaa;
+}
+
+.redhat img {
+  border: none;
+}
